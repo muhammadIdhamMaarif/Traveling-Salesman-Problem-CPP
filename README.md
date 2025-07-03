@@ -6,7 +6,7 @@
 
 ## TL;DR
 1. Copy all text in `pnr.cpp`
-2. Open [Programiz](https://www.programiz.com/cpp-programming/online-compiler/)
+2. Open [Programiz C++ Compiler](https://www.programiz.com/cpp-programming/online-compiler/)
 3. Paste the code
 4. Run
 
