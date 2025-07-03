@@ -189,7 +189,7 @@ You will see outputs of all algorithms running on the sample distance matrix.
 2. Paste into your workspace
 3. Use by using
 ```cpp
-  #include "tsp.hpp";
+  #include "tsp.hpp"
   // your code
 ```
 
