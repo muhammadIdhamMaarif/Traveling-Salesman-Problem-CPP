@@ -4,6 +4,14 @@
 
 ---
 
+## TL;DR
+1. Copy all text in `pnr.cpp`
+2. Open [Programiz](https://www.programiz.com/cpp-programming/online-compiler/)
+3. Paste the code
+4. Run
+
+---
+
 ## Overview
 
 This repository provides a comprehensive C++ implementation of multiple algorithms to solve the **Traveling Salesman Problem (TSP)** — a classic NP-hard combinatorial optimization problem.
@@ -179,13 +187,13 @@ You will see outputs of all algorithms running on the sample distance matrix.
 
 ## How to Use (Paste and Run)
 
-1. Open pnr.cpp
+1. Open `pnr.cpp`
 2. Copy all the contents inside
 3. Paste in your code editor or online compiler (Example [Programiz](https://www.programiz.com/cpp-programming/online-compiler/))
 
 ## How to Use (Header)
 
-1. Copy all the contents inside tsp.hpp
+1. Copy all the contents inside `tsp.hpp`
 2. Paste into your workspace
 3. Use by using
 ```cpp
