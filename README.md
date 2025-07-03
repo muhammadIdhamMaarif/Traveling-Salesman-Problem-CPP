@@ -27,6 +27,7 @@ Each algorithm has different time and space complexity characteristics, providin
 
 - `tsp.hpp` — Header-only class file with all TSP algorithms implemented in a class
 - `main.cpp` — Sample usage demonstrating each algorithm
+- `pnr.cpp` — Paste and run code to test directly in compiler
 - `LICENSE` — MIT License file  
 - `README.md` — This file
 
