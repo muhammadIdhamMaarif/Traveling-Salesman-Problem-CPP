@@ -155,7 +155,7 @@ Berikut adalah analisis singkat kompleksitas waktu dan ruang untuk berbagai meto
 
 ---
 
-## How to Use (With Header)
+## How to Use (Local)
 
 1. Clone the repo:
 
@@ -167,13 +167,13 @@ cd Traveling-Salesman-Problem-CPP
 2. Compile (requires C++11 or later):
 
 ```bash
-g++ -std=c++17 main.cpp -o tsp_solver
+g++ -std=c++17 pnr.cpp -o pnr
 ```
 
 3. Run:
    
 ```bash
-./tsp_solver
+./pnr
 ```
 You will see outputs of all algorithms running on the sample distance matrix.
 
@@ -182,6 +182,16 @@ You will see outputs of all algorithms running on the sample distance matrix.
 1. Open pnr.cpp
 2. Copy all the contents inside
 3. Paste in your code editor or online compiler (Example [Programiz](https://www.programiz.com/cpp-programming/online-compiler/))
+
+## How to Use (Header)
+
+1. Copy all the contents inside tsp.hpp
+2. Paste into your workspace
+3. Use by using
+```cpp
+  #include "tsp.hpp";
+  // your code
+```
 
 
 ## Theoretical Notes and Proof Sketches
