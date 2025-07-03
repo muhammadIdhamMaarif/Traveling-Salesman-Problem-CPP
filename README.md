@@ -33,6 +33,33 @@ Each algorithm has different time and space complexity characteristics, providin
 
 ---
 
+## Kompleksitas Algoritma
+
+Berikut adalah analisis singkat kompleksitas waktu dan ruang untuk berbagai metode penyelesaian TSP yang ada di kelas ini:
+
+| Algoritma                        | Time Complexity      | Space Complexity     | Deskripsi Singkat                                                                 |
+|---------------------------------|---------------------|---------------------|-----------------------------------------------------------------------------------|
+| `SolveWithNonFixedFirstCity()`   | O(n!)               | O(n)                | Mengeksplorasi semua permutasi rute, sangat mahal untuk n besar.                  |
+| `SolveWithFixedFirstCity()`      | O((n-1)!)           | O(n)                | Mengurangi permutasi dengan mengunci kota awal, mempercepat sekitar faktor n.     |
+| `SolveWithEliminatingMirror()`   | O((n-1)! / 2)       | O(n)                | Menghilangkan rute yang simetris terbalik, mengurangi permutasi sekitar setengahnya.|
+| `SolveWithDynamicProgramming()`  | O(n² * 2^n)         | O(n * 2^n)          | Algoritma DP bitmask efisien, cocok untuk n sampai sekitar 20.                    |
+| `SolveWithBranchAndBound()`      | Worst: O(n!), Avg: ? | O(n)                | Pruning mengurangi cabang pencarian, sangat tergantung pada input dan bound.      |
+| `SolveWithNearestNeighbor()`     | O(n²)               | O(n)                | Heuristik cepat, hasil tidak selalu optimal.                                     |
+| `SolveWithGreedyEdgeSelection()` | O(n² log n)         | O(n²)               | Membangun siklus Hamiltonian dari edge murah, menggunakan sorting dan Union-Find.|
+| `SolveWithChristofidesAlgorithm()` | O(n³)            | O(n²)               | Aproksimasi dengan jaminan 1.5x solusi optimal, memakai MST dan matching.         |
+| `SolveWithSimulatedAnnealingAlgorithm()` | O(iterations * n) | O(n)               | Heuristik probabilistik, iterasi tergantung parameter, cocok untuk n besar.       |
+
+---
+
+**Keterangan:**
+- `n` = jumlah kota (numCities)
+- `iterations` = parameter jumlah iterasi pada algoritma Simulated Annealing
+- Pruning di Branch and Bound membuat waktu rata-rata sulit diprediksi secara pasti
+
+---
+
+
+
 ## Algorithms Explained
 
 ### 1. Backtracking (Permutation Enumeration)
