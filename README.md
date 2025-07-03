@@ -127,13 +127,13 @@ Each algorithm has different time and space complexity characteristics, providin
 
 ---
 
-## How to Use
+## How to Use (With Header)
 
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/yourusername/tsp-solver.git
-cd tsp-solver
+git clone https://github.com/muhammadIdhamMaarif/Traveling-Salesman-Problem-CPP.git
+cd Traveling-Salesman-Problem-CPP
 ```
 
 2. Compile (requires C++11 or later):
@@ -147,8 +147,14 @@ g++ -std=c++17 main.cpp -o tsp_solver
 ```bash
 ./tsp_solver
 ```
-
 You will see outputs of all algorithms running on the sample distance matrix.
+
+## How to Use (Paste and Run)
+
+1. Open pnr.cpp
+2. Copy all the contents inside
+3. Paste in your code editor or online compiler (Example [Programiz](https://www.programiz.com/cpp-programming/online-compiler/))
+
 
 ## Theoretical Notes and Proof Sketches
 
